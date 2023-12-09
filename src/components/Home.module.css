@@ -1,0 +1,16 @@
+.gridContainer {
+    display: grid;
+    gap: 5;
+    padding: 5;
+}
+
+.innerContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.screenCapture {
+    height: 50vh;
+    width: 50vw;
+}

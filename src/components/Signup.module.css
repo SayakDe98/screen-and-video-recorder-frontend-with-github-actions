@@ -1,0 +1,47 @@
+.name,
+.email,
+.password {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: flex-start;
+    margin: 15px 0;
+}
+
+.name input,
+.email input,
+.password input {
+    margin-top: 15px;
+}
+
+.errors {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.navigateLogin {
+    font-size: small;
+    font-weight: normal;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.navigateLoginButton {
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: #2784ff;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 98vw;
+}

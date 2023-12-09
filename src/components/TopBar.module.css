@@ -1,0 +1,23 @@
+.topBar {
+    display: flex!important;
+    align-items: center;
+}
+
+.title {
+    width: 50%;
+    margin-left: auto;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.buttons button {
+    background: greenyellow;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0;
+        box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.1), 0 2px 7px 0 rgba(0, 0, 0, 0.1);
+}
