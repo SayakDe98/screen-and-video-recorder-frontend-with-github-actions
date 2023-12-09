@@ -73,7 +73,7 @@ const Home = () => {
       }
     }
     videoBlob && saveVideoInDb();
-  }, [videoBlob]);
+  }, [videoBlob, token]);
 
   const downloadVideo = () => {
     if (videoBlob) {
